@@ -1,6 +1,6 @@
 a();
 
-function a() {
+const a = function() {
 
   console.log(c);
   var c = 1;
