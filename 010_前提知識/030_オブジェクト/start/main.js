@@ -13,3 +13,4 @@ let obj = {
 obj.prop6 = 'value6'
 console.log(obj.prop6);
 console.log(obj['prop6']);
+console.log(obj);
