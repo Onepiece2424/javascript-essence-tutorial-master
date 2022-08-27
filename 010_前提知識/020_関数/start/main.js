@@ -1,7 +1,7 @@
-let name = 'Tim'
+let name = 'Tim';
 
-function hello() {
-  console.log('hello,hello');
+function hello(name) {
+  console.log('hello ' + name);
 }
 
-hello();
+hello(name);
