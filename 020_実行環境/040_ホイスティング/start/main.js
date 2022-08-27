@@ -1,9 +1,9 @@
 a();
 
-const a = function() {
+function a() {
+  let c = 1;
 
   console.log(c);
-  var c = 1;
 
   d();
   function d() {
@@ -12,7 +12,6 @@ const a = function() {
   console.log('a is called');
 }
 
-
+const b = 0;
 
 console.log(b);
-const b = 0;
