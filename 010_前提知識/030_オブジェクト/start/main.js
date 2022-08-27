@@ -10,4 +10,6 @@ let obj = {
 }
 
 // obj.prop3();
-console.log(obj.prop4.prop5);
+obj.prop6 = 'value6'
+console.log(obj.prop6);
+console.log(obj['prop6']);
