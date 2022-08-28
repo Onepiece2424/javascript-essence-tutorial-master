@@ -21,9 +21,16 @@ function calcFactory(val) {
     plus: function(target) {
       const newVal = val + target;
       console.log(val + " + " + target + " = " + newVal);
+      val = newVal;
+    },
+    minus: function(target) {
+      const newVal = val - target;
+      console.log(val + " - " + target + " = " + newVal);
+      val = newVal;
     }
   };
 }
 
 const calc = calcFactory(10);
 calc.plus(5);
+calc.minus(3);
