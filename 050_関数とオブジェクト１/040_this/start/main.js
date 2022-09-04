@@ -1,7 +1,7 @@
 const person = {
     name: 'Tom',
     hello: function() {
-      console.log('Hello ' + person.name);
+      console.log('Hello ' + this.name);
     }
 }
 person.hello();
